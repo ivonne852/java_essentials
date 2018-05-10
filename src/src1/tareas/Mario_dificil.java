@@ -7,7 +7,7 @@ public class Mario_dificil {
 	public static void main(String[] args) {
 		System.out.println("How many level has the pyramid?");
 		int i = Input.get_int();
-				make_pryramid(i);
+				make_pryramid(Input.getIntegerInput(i));
 
 	}
 	
