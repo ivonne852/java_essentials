@@ -103,8 +103,15 @@ public class Input {
 		}
 		
 	}
-
-
-
-
+	
+	public static int getIntegerInput(int value) {
+		
+		while (value < 2 || value > 25) {
+			System.out.println("How many level has the pyramid between 2 and 25?");
+			value = Input.get_int(); 
+		}
+		
+		return value;
+	}
+	
 }
